@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Page d'acceuil </title>
+    <link rel="stylesheet" href="style2.css" />
+</head>
+
+<body>
+    <center>
+        <div class="form">
+            <h3 class="titre">Inscription</h3>
+                <form action="action.php" method="POST">
+                    <p class="pa">noms: </p>
+                    <input type="text" name="nom" id="nom" placeholder="Entrez votre nom" >
+                    <p class="pa">Prenoms: </p>
+                    <input type="text" name="prenom" id="prenom" placeholder="Entrez votre prenom" >
+                    <p class="pa">Adresse Email: </p>
+                    <input type="email" name="email" id="email" placeholder="Entrez votre adresse mail" >
+                    <p class="pa">Age: </p>
+                    <input type="number" name="age" id="age" placeholder="Entrez votre age" > <br><br>
+                    
+                    <label class="pa" for="sexe">Sexe</label>
+                    <select name="sexe" id="sexe">
+                        <option value="homme">Homme</option>
+                        <option value="femme">Femme</option>
+                    </select><br> <br><br>
+                    <input type="submit" value="Envoyez"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="reset" value="Effacer">
+                </form>
+        </div>
+    </center>
+    <script src="./test.js" ></script>
+</body>
+
+
+</html>
+
