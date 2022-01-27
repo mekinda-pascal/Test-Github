@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(img04.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 15px;
+  border: 1px solid #ffff;
+  display: table-column;
+}
+.titre {
+  font-weight: bold;
+  color: white;
+  font-size: x-large;
+}
+
+.pa {
+  color: white;
+  font-weight: bold;
+}
+
+/*.form input,select{
+        width: 100%;
+    }*/
+
+.form input[type="text"],
+.form input[type="number"],
+.form input[type="email"] {
+  border: none;
+  border-bottom: 1px solid #ffff;
+  background-color: transparent;
+  outline: none;
+  height: 20px;
+  display: 10px;
+  color: #ffff;
+}
+
+/*::placeholder{
+        color: #ffff;
+    }*/
+
+/*En survol */
+.form:hover {
+  background-color: rgba(17, 16, 15, 0.5);
+}
+
+.form input[type="submit"],
+input[type="reset"] {
+  border: none;
+  border-bottom: 1px solid #ffff;
+  background-color: transparent;
+  outline: none;
+  height: 20px;
+  display: 10px;
+  color: #ffff;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 400px) and (max-width: 1000px) {
+  .form {
+    font-size: 28px;
+  }
+  * {
+    font-size: 20px;
+  }
+  .form input[type="submit"],
+  input[type="reset"] {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 912px) {
+  .form {
+    font-size: 30px;
+  }
+  * {
+    font-size: 20px;
+  }
+  .form input[type="submit"],
+  input[type="reset"] {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 415px) {
+  .form {
+    font-size: 25px;
+  }
+  * {
+    font-size: 20px;
+  }
+  .form input[type="submit"],
+  input[type="reset"] {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 280px) {
+  .form {
+    font-size: 20px;
+  }
+  * {
+    font-size: 15px;
+  }
+  .form input[type="submit"],
+  input[type="reset"] {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 412px) {
+  .form {
+    font-size: 28px;
+  }
+  * {
+    font-size: 23px;
+  }
+  .form input[type="submit"],
+  input[type="reset"] {
+    font-size: 23px;
+  }
+}
